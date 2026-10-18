@@ -1,4 +1,4 @@
-* **Prepared By: Suhaimi Alfonso**
+* **Prepared By: Ravna**
 * **Dataset Used: Prodct Sales**
 
 # Electronics Retail Sales Dataset 📊
@@ -9,25 +9,22 @@
 
 <h1 align="center">Electronics Retail Sales Dataset</h1>
 
-This repository contains a transactional dataset capturing retail sales performance for consumer electronics products throughout the first half of **2026**. The data includes granular details on order parameters, product categories, geographic regions, salesperson mapping, and promotional discounts.
+Project Title Analysis of Supply Chain Delivery Performance Using Data Analytics to Reduce Late-Delivery Risk and Improve Operational Efficiency
 
-It serves as an excellent resource for exploratory data analysis (EDA), sales performance forecasting, regional market analysis, and missing data imputation practice.
+Research Question How can supply chain data be analyzed to identify the factors affecting delivery performance and develop predictive models that reduce late-delivery risk while improving operational efficiency and customer satisfaction?
+
 
 <img width="1317" height="742" alt="image" src="https://github.com/user-attachments/assets/fd2d0b2f-b7d0-4953-8c8b-868132c2485a" />
 
-## 📋 5 Research Objectives Eamples
+Research Objectives The primary objective of this study is to analyze supply chain data to understand delivery performance and identify opportunities to reduce late deliveries, improve operational efficiency, and enhance customer satisfaction. The specific objectives are:
 
-1. **Regional Sales Performance & Geographic Market Analysis**
-   	> Evaluate total revenue, transaction volume, and average order value across different geographic regions (Region) to identify high-performing markets and underperforming zones.
-2. **Impact of Discount Strategies on Net Revenue and Volume**
-	> Investigate the relationship between Discount percentages and the resulting Quantity sold versus total net Sales to determine whether discounting successfully stimulates demand or negatively impacts revenue margins.
-3. **Product Demand and Revenue Concentration Analysis**
-	> Identify which specific Product lines dominate total revenue generation and sales volume to pinpoint core revenue drivers versus low-performing inventory
-4. **Salesperson Productivity and Performance Benchmarking**
-	> Assess individual sales representatives (Salesperson) based on total sales generated, transaction frequency, and average order size to establish performance benchmarks
-5. **Temporal Sales Trends and Demand Seasonality**
-	> Examine periodic and monthly variations in sales transactions over time (Date) to detect peak purchasing windows and seasonal demand fluctuations.
-
+To evaluate the overall delivery performance of the supply chain by analyzing delivery status, shipping duration, and late-delivery occurrences.
+To identify the key factors influencing delivery delays, including shipping mode, product category, order characteristics, and geographical location.
+To examine the relationship between delivery performance and business outcomes, such as sales revenue and profitability.
+To compare delivery performance across different markets, regions, and product categories to identify areas requiring operational improvement.
+To develop a predictive model for late-delivery risk using historical supply chain data and relevant operational variables.
+To assess the impact of late deliveries on customer satisfaction and overall supply chain efficiency.
+To provide data-driven recommendations that can help reduce delivery delays, improve logistics performance, and support strategic decision-making.
 
 ## 📋 Dataset Overview
 
