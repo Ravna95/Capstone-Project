@@ -24,7 +24,14 @@ Dataset repository: Ravna – Capstone Project
 
 
 🧭 # Project Navigation
-Problem Statement · Research Objectives · Dataset Description · Methodology · KPIs · EDA · Power BI · Deliverables
+Problem Statement 
+· Research Objectives 
+· Dataset Description 
+· Methodology 
+· KPIs 
+· EDA 
+· Power BI 
+· Deliverables
 
 🎯 2. Problem Statement
 
