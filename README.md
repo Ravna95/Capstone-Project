@@ -63,6 +63,7 @@ Objective 5: Analyse Customer Segment Performance
 - Identify segments contributing the highest revenue and profitability.
   
 🗂️ 4. Dataset Description
+
 The project uses nine CSV datasets, with record counts verified from the supplied files, and one Data Dictionary.
 No.	Dataset	Records	Columns	Description
 1	Customers.csv	20,652	11	Customer information and segments
