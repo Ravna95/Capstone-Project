@@ -15,7 +15,9 @@ This capstone project uses nine interconnected DataCo Supply Chain Analytics dat
 Project type: Business Analytics
 Tools: Python · Pandas · Matplotlib · Google Colab · Power BI · GitHub
 Dataset repository: Ravna – Capstone Project
-🧭 Project Navigation
+
+
+🧭 # Project Navigation
 Problem Statement · Research Objectives · Dataset Description · Methodology · KPIs · EDA · Power BI · Deliverables
 🎯 2. Problem Statement
 DataCo handles orders across different products, shipping modes and geographical markets. Late deliveries and low-profit transactions may affect operational efficiency and business outcomes. Without integrated reporting, it can be difficult to compare delivery performance and understand which products, customer segments and markets contribute to sales and profitability.
