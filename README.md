@@ -16,7 +16,7 @@ Improving Delivery Efficiency, Sales and Profitability Through Business Analytic
 
 </div>
 
-📌 Project Overview
+📌 1.Project Overview
 
 This capstone project uses nine interconnected DataCo Supply Chain Analytics datasets and the accompanying Data Dictionary to examine sales trends, delivery performance, product profitability, geographic markets and customer segments. 
 Python and Pandas will be used for data preparation and exploratory data analysis (EDA). 
