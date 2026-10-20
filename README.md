@@ -195,9 +195,11 @@ This capstone offers an opportunity to apply Python, data cleaning, data integra
 Develop stronger skills in Python, SQL and Power BI to improve business analytics, reporting and decision support.
 
 🏁 13. Conclusion
+
 The project aims to transform nine related DataCo datasets into a structured analysis of sales, delivery efficiency, profitability, geography and customer segments. Final conclusions will be written after the findings are validated and presented in Python and Power BI.
 
 📦 14. Project Deliverables
+
 - Jupyter Notebook (.ipynb) containing data preparation, analysis and charts.
 - Power BI report (.pbix) containing interactive dashboards.
 - Nine source CSV files and Data Dictionary (.docx).
