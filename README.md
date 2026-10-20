@@ -27,6 +27,7 @@ Dataset repository: Ravna – Capstone Project
 Problem Statement · Research Objectives · Dataset Description · Methodology · KPIs · EDA · Power BI · Deliverables
 
 🎯 2. Problem Statement
+
 DataCo handles orders across different products, shipping modes and geographical markets. Late deliveries and low-profit transactions may affect operational efficiency and business outcomes. Without integrated reporting, it can be difficult to compare delivery performance and understand which products, customer segments and markets contribute to sales and profitability.
 
 Main research question: How can DataCo use historical order, shipping, sales and profitability data to identify performance patterns and support improvements in supply chain decision-making?
