@@ -1,86 +1,151 @@
-* **Prepared By: Ravna**
-* **Dataset Used: Prodct Sales**
+Prepared by Ravna
 
-# Electronics Retail Sales Dataset 📊
+<div align="center">
 
-<p align="center">
- <img width="266" height="205" alt="image_1e16842e_edited" src="https://github.com/user-attachments/assets/699034ae-2410-4f06-ae9d-66dd5003594f" />
-</p>
-
-<h1 align="center">Electronics Retail Sales Dataset</h1>
-
-Project Title Analysis of Supply Chain Delivery Performance Using Data Analytics to Reduce Late-Delivery Risk and Improve Operational Efficiency
-
-Research Question How can supply chain data be analyzed to identify the factors affecting delivery performance and develop predictive models that reduce late-delivery risk while improving operational efficiency and customer satisfaction?
-
-
-<img width="1317" height="742" alt="image" src="https://github.com/user-attachments/assets/fd2d0b2f-b7d0-4953-8c8b-868132c2485a" />
-
-Research Objectives The primary objective of this study is to analyze supply chain data to understand delivery performance and identify opportunities to reduce late deliveries, improve operational efficiency, and enhance customer satisfaction. The specific objectives are:
-
-To evaluate the overall delivery performance of the supply chain by analyzing delivery status, shipping duration, and late-delivery occurrences.
-To identify the key factors influencing delivery delays, including shipping mode, product category, order characteristics, and geographical location.
-To examine the relationship between delivery performance and business outcomes, such as sales revenue and profitability.
-To compare delivery performance across different markets, regions, and product categories to identify areas requiring operational improvement.
-To develop a predictive model for late-delivery risk using historical supply chain data and relevant operational variables.
-To assess the impact of late deliveries on customer satisfaction and overall supply chain efficiency.
-To provide data-driven recommendations that can help reduce delivery delays, improve logistics performance, and support strategic decision-making.
-
-## 📋 Dataset Overview
-
-* **File Name:** `product_sales_practice.csv`
-* **Time Horizon:** January 2026 – June 2026
-* **Target Category:** Electronics
-* **Key Entities:** Products, Sales Team, Regional Markets, Revenue Metrics
-
-  Link to Jupyter Notebook in Google Colab:
-  https://colab.research.google.com/drive/1zdPR2ig9qFp6Q1gPrZvky3Ac7UITW3Mv?usp=sharing
+📊 DataCo Supply Chain Performance Analysis
+Improving Delivery Efficiency, Sales and Profitability Through Business Analytics
+NTUC LearningHub · SCTP Associate Data Analyst · Capstone Project
    
-## 🗂️ Data Dictionary
+9 CSV Datasets · 5 Research Objectives · 3 Planned Dashboards
+</div>
 
-The dataset consists of the following 10 features:
+📌 Project Overview
+This capstone project uses nine interconnected DataCo Supply Chain Analytics datasets and the accompanying Data Dictionary to examine sales trends, delivery performance, product profitability, geographic markets and customer segments. Python and Pandas will be used for data preparation and exploratory data analysis (EDA). Power BI will be used to build interactive dashboards that support business decisions.
+Project type: Business Analytics
+Tools: Python · Pandas · Matplotlib · Google Colab · Power BI · GitHub
+Dataset repository: Ravna – Capstone Project
+🧭 Project Navigation
+Problem Statement · Research Objectives · Dataset Description · Methodology · KPIs · EDA · Power BI · Deliverables
+🎯 2. Problem Statement
+DataCo handles orders across different products, shipping modes and geographical markets. Late deliveries and low-profit transactions may affect operational efficiency and business outcomes. Without integrated reporting, it can be difficult to compare delivery performance and understand which products, customer segments and markets contribute to sales and profitability.
+Main research question: How can DataCo use historical order, shipping, sales and profitability data to identify performance patterns and support improvements in supply chain decision-making?
+The analysis will identify measurable patterns and opportunities; it will not assume that the available data can prove the causes of delivery delays.
+📋 3. Research Objectives
+The project focuses on five research objectives:
+Objective 1: Analyse Overall Sales Performance
+- Calculate total sales revenue and order volume.
+- Examine monthly and yearly sales trends.
+- Identify products and categories contributing the highest sales.
+Objective 2: Evaluate Delivery Performance
+- Calculate the percentage of late deliveries.
+- Compare actual shipping days with scheduled shipping days.
+- Compare delivery performance across shipping modes.
+Objective 3: Analyse Product and Category Profitability
+- Identify the most and least profitable products and categories.
+- Compare revenue and profit across departments.
+- Examine associations between discounts and profitability.
+Objective 4: Evaluate Geographical Sales and Delivery Performance
+- Compare revenue and profitability across markets and regions.
+- Identify geographical areas with higher late-delivery rates.
+- Examine regional differences in supply chain performance.
+Objective 5: Analyse Customer Segment Performance
+- Compare sales contributions across customer segments.
+- Examine customer ordering patterns and purchase frequency.
+- Identify segments contributing the highest revenue and profitability.
+🗂️ 4. Dataset Description
+The project uses nine CSV datasets, with record counts verified from the supplied files, and one Data Dictionary.
+No.	Dataset	Records	Columns	Description
+1	Customers.csv	20,652	11	Customer information and segments
+2	Orders.csv	65,752	11	Order information, statuses and delivery measures
+3	Order Items.csv	180,519	15	Line items, quantities, sales, discounts and profit fields
+4	Products.csv	118	7	Product names, categories, prices and status
+5	Categories.csv	51	3	Product category reference
+6	Departments.csv	11	2	Product department reference
+7	Shipping.csv	65,752	3	Shipping modes and related shipment information
+8	Geography.csv	64,990	9	Markets, regions, countries and cities
+9	Payment Types.csv	4	2	Payment method reference
 
-| Column Name | Data Type | Description | Example Value |
-| :--- | :--- | :--- | :--- |
-| **Order_ID** | String | A unique alphanumeric identifier for each transaction. | `ORD078` |
-| **Date** | Date | The transaction date formatted as `YYYY-MM-DD`. | `2026-04-09` |
-| **Product** | String | The name of the electronic item sold. | `Laptop`, `Mouse`, `Webcam` |
-| **Category** | String | The high-level category classification. | `Electronics` |
-| **Region** | String | The geographic sales territory. | `North`, `East`, `West`, `South` |
-| **Salesperson** | String | The name of the account representative. | `Alice`, `Bob`, `Charlie`, `Diana`, `Ethan` |
-| **Quantity** | Integer | The total units purchased in the order. | `7.0` |
-| **Unit_Price** | Float | The retail price per single unit of the product. | `997.67` |
-| **Discount** | Float | The promotional deduction percentage applied (0.0 to 0.15). | `0.15` (equivalent to 15%) |
-| **Sales** | Float | The final calculated gross revenue earned from the order. | `6983.69` |
 
-## 🔍 Data Quality & Cleaning Notes
+Data Dictionary.docx documents the meaning of the fields and helps identify table relationships. Record counts represent rows in individual files, not distinct customers or orders across the entire model; they should not be added together as a business total.
+🛠️ 5. Project Methodology
+Phase 1: Data Collection and Understanding
+- Load all nine datasets from GitHub using Python Pandas.
+- Inspect columns, row counts, data types and sample records.
+- Compare fields and identifiers with the Data Dictionary.
+Phase 2: Data Cleaning and Preprocessing
+- Examine missing values, duplicate records and invalid values.
+- Convert date fields to suitable date/time types.
+- Check key uniqueness and referential integrity.
+- Exclude unnecessary customer names, addresses, email addresses and password fields from analytical outputs.
+- Document all cleaning decisions instead of automatically deleting records.
+Phase 3: Data Integration
+- Relate orders to order items, customers, shipping, geography and payment methods.
+- Relate products to categories and departments.
+- Validate join cardinality and row counts to prevent double-counting.
+- Prepare clean analytical tables for Power BI.
+Phase 4: Exploratory Data Analysis (EDA)
+- Analyse sales trends and order volumes.
+- Examine late delivery rates and shipping mode performance.
+- Compare profitability by product, category and department.
+- Compare markets and regions.
+- Evaluate customer segments and ordering patterns.
+Phase 5: Reporting and Visualisation
+- Produce explanatory Python charts.
+- Build interactive Power BI dashboards with filters.
+- Document verified insights and practical recommendations.
+📈 6. Key Performance Indicators (KPIs)
+KPI	Purpose
+Total Sales Revenue	Overall sales performance
+Total Orders	Distinct order volume
+Total Profit	Overall profitability using validated profit fields
+Profit Margin (%)	Profit relative to sales
+Late Delivery Rate (%)	Share of orders classified as late
+Average Actual Shipping Days	Observed shipping duration
+Average Scheduled Shipping Days	Planned shipping duration
+Sales by Category	Product category contribution
+Sales by Market	Geographical contribution
+Sales by Customer Segment	Segment contribution
 
-If you are using this dataset for data cleaning projects, please note that it intentionally contains realistic real-world data anomalies:
-* **Missing Values (NaNs):** Features like `Region`, `Salesperson`, `Unit_Price`, `Discount`, and `Sales` contain scattered missing fields (e.g., missing revenue values or unattributed regional boundaries).
-* **Calculated Columns:** The `Sales` column follows the general formula:  
-  \[\text{Sales} = (\text{Quantity} \times \text{Unit\_Price}) \times (1 - \text{Discount})\]
-  This relationship can be exploited to programmatically restore missing metrics.
-* **Empty Rows:** The raw structure contains blank structural divider rows (`,,,,,,,,,`) that should be filtered out during preprocessing.
 
-## 🛠️ Usage Example (Python & Pandas)
+Calculation note: Profit fields and order-level measures will be checked against the Data Dictionary and their actual values before aggregation. A line-item table can repeat order-level values, so naive sums may overstate results.
+🔍 7. Exploratory Data Analysis
+7.1 Sales Performance
+Evaluate revenue, distinct order volume, trends and high-performing products and categories.
+7.2 Delivery Performance
+Evaluate delivery statuses, late-delivery rates and actual versus scheduled shipping duration.
+7.3 Shipping Mode Efficiency
+Compare late-delivery rates and shipping durations by shipping mode.
+7.4 Product and Category Profitability
+Compare profit and revenue across products, categories and departments; explore discount relationships.
+7.5 Geographical Performance
+Compare sales, profit and delivery outcomes across markets and regions.
+7.6 Customer Segments
+Compare sales, order frequency and profitability by customer segment.
+📊 8. Power BI Dashboard Development
+Dashboard 1 — Sales and Profitability: Total sales, total orders, total profit, profit margin, sales trends, product/category comparisons and department performance.
+Dashboard 2 — Shipping and Delivery: Late-delivery rate, delivery status, actual versus scheduled shipping days, shipping-mode comparisons and trends.
+Dashboard 3 — Customer and Geography: Customer-segment revenue, purchase frequency, market sales, regional profitability and delivery comparisons.
+Dashboards will provide interactive filters for relevant dates, markets, product categories and customer segments. Dashboard development is a project deliverable rather than a separate research objective.
+💡 9. Key Findings and Business Insights
+To be completed after analysis. Each finding will state the calculation, supporting chart or table, business interpretation and any relevant limitations. No results from reference projects will be copied.
+✅ 10. Business Recommendations
+To be finalised after analysis. Recommendations may address recurring delivery delays, shipping-mode performance, low-profit products and categories, regional differences, customer segment reporting and management visibility. Only recommendations supported by verified findings will be presented as conclusions.
+⚠️ 11. Project Limitations
+- Historical results may not reflect current business conditions.
+- Missing geographical values may limit regional comparisons.
+- Delivery status and late-delivery risk must be interpreted consistently.
+- Profit fields may exist at different transaction levels and require careful aggregation.
+- Observed relationships do not establish the causes of delays or profit differences.
+🌱 12. Future Improvements and Project Reflection
+12.1 Future Improvements
+- Delivery monitoring: Extend reporting to highlight recurring late-delivery patterns.
+- Predictive analytics: Consider a future model to estimate late-delivery risk, with proper validation.
+- Profitability analysis: Investigate discounts, product performance and margin patterns in more detail.
+- Dashboard automation: Explore scheduled refreshes when a suitable regularly updated data source is available.
+- Customer analysis: Extend customer-segment and purchase-frequency reporting.
+12.2 Project Reflection
+This capstone offers an opportunity to apply Python, data cleaning, data integration, EDA and Power BI skills to supply chain data. The final reflection will describe what was learned, what challenges were encountered and how they were resolved after the project is completed.
+12.3 Future Learning Goals
+Develop stronger skills in Python, SQL and Power BI to improve business analytics, reporting and decision support.
+🏁 13. Conclusion
+The project aims to transform nine related DataCo datasets into a structured analysis of sales, delivery efficiency, profitability, geography and customer segments. Final conclusions will be written after the findings are validated and presented in Python and Power BI.
+📦 14. Project Deliverables
+- Jupyter Notebook (.ipynb) containing data preparation, analysis and charts.
+- Power BI report (.pbix) containing interactive dashboards.
+- Nine source CSV files and Data Dictionary (.docx).
+- Project README (.md) documenting methodology and findings.
+- Final PowerPoint presentation (.pptx).
+- Practical Performance project ZIP for submission, with PowerPoint submitted separately according to course instructions.
+Project status: Planning and data-understanding stage.
+Next step: Validate dataset fields, relationships and data quality in Google Colab.
 
-Get started analyzing this dataset quickly using Python:
-
-```python
-import pandas as pd
-
-# Load the dataset and drop completely empty structural lines
-df = pd.read_csv('sales_data.csv').dropna(how='all')
-
-# Convert date column to datetime object
-df['Date'] = pd.to_datetime(df['Date'])
-
-# Quick view of total sales revenue by product
-revenue_by_product = df.groupby('Product')['Sales'].sum().sort_values(ascending=False)
-print("Revenue by Product:\n", revenue_by_product)
-```
-
-## 💡 Potential Projects & Analysis Directions
-1. **Sales Performance Dashboards:** Create interactive Tableau or Power BI visualizations mapping regional performance by salesperson.
-2. **Predictive Modeling:** Build machine learning regression models to predict expected order values or customer quantity demands.
-3. **Discount Impact Studies:** Assess whether offering a $10\%$ vs $15\%$ discount yields a statistically significant increase in total items sold.
