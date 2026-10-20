@@ -18,7 +18,8 @@ This capstone project uses nine interconnected DataCo Supply Chain Analytics dat
 
 Project type: Business Analytics
 
-Tools: Python · Pandas · Matplotlib · Google Colab · Power BI · GitHub
+
+Tools: Python · Pandas · Matplotlib · Google Colab · Power BI · GitHub 
 
 Dataset repository: Ravna – Capstone Project
 
