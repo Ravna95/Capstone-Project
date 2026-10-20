@@ -101,7 +101,7 @@ No.	Dataset	Records	Columns	Description
 
 8	Geography.csv	64,990	9	Markets, regions, countries and cities
 
-9	Payment Types.csv	4	2	Payment method reference
+9	Payment Types.csv	4	2	Payment method reference 
 
 
 Data Dictionary.docx documents the meaning of the fields and helps identify table relationships. Record counts represent rows in individual files, not distinct customers or orders across the entire model; they should not be added together as a business total.
