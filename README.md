@@ -29,6 +29,8 @@ Tools: Python · Pandas · Matplotlib · Google Colab · Power BI · GitHub
 
 Dataset repository: Ravna – Capstone Project
 
+Link to Jupyter Notebook in Google Colab: https://colab.research.google.com/drive/1eMJr6zUDOovSVQi-Qaihhl-L1ErGP24V?usp=sharing
+
 
 🧭 # Project Navigation
 Problem Statement 
