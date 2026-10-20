@@ -34,7 +34,7 @@ Link to Jupyter Notebook in Google Colab: https://colab.research.google.com/driv
 
 🧭 # Project Navigation
 
-· #2- Problem Statement 
+· Problem Statement 
 · Research Objectives 
 · Dataset Description 
 · Methodology 
