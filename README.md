@@ -65,15 +65,25 @@ Objective 5: Analyse Customer Segment Performance
 🗂️ 4. Dataset Description
 
 The project uses nine CSV datasets, with record counts verified from the supplied files, and one Data Dictionary.
+
 No.	Dataset	Records	Columns	Description
+
 1	Customers.csv	20,652	11	Customer information and segments
+
 2	Orders.csv	65,752	11	Order information, statuses and delivery measures
+
 3	Order Items.csv	180,519	15	Line items, quantities, sales, discounts and profit fields
+
 4	Products.csv	118	7	Product names, categories, prices and status
+
 5	Categories.csv	51	3	Product category reference
+
 6	Departments.csv	11	2	Product department reference
+
 7	Shipping.csv	65,752	3	Shipping modes and related shipment information
+
 8	Geography.csv	64,990	9	Markets, regions, countries and cities
+
 9	Payment Types.csv	4	2	Payment method reference
 
 
