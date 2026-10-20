@@ -3,8 +3,11 @@ Prepared by Ravna
 <img width="733" height="384" alt="image" src="https://github.com/user-attachments/assets/4cdca9e1-8699-4472-8b6d-2739840ff161" />
 
 
-📊 DataCo Supply Chain Performance Analysis
+📊 #  DataCo Supply Chain Performance Analysis #
+
+
 Improving Delivery Efficiency, Sales and Profitability Through Business Analytics
+
 NTUC LearningHub · SCTP Associate Data Analyst · Capstone Project
    
 9 CSV Datasets · 5 Research Objectives · 3 Planned Dashboards
@@ -12,8 +15,11 @@ NTUC LearningHub · SCTP Associate Data Analyst · Capstone Project
 
 📌 Project Overview
 This capstone project uses nine interconnected DataCo Supply Chain Analytics datasets and the accompanying Data Dictionary to examine sales trends, delivery performance, product profitability, geographic markets and customer segments. Python and Pandas will be used for data preparation and exploratory data analysis (EDA). Power BI will be used to build interactive dashboards that support business decisions.
+
 Project type: Business Analytics
+
 Tools: Python · Pandas · Matplotlib · Google Colab · Power BI · GitHub
+
 Dataset repository: Ravna – Capstone Project
 
 
