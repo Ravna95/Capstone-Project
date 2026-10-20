@@ -33,27 +33,34 @@ Main research question: How can DataCo use historical order, shipping, sales and
 The analysis will identify measurable patterns and opportunities; it will not assume that the available data can prove the causes of delivery delays.
 
 📋 3. Research Objectives
+
 The project focuses on five research objectives:
+
 Objective 1: Analyse Overall Sales Performance
 - Calculate total sales revenue and order volume.
 - Examine monthly and yearly sales trends.
 - Identify products and categories contributing the highest sales.
+  
 Objective 2: Evaluate Delivery Performance
 - Calculate the percentage of late deliveries.
 - Compare actual shipping days with scheduled shipping days.
 - Compare delivery performance across shipping modes.
+  
 Objective 3: Analyse Product and Category Profitability
 - Identify the most and least profitable products and categories.
 - Compare revenue and profit across departments.
 - Examine associations between discounts and profitability.
+  
 Objective 4: Evaluate Geographical Sales and Delivery Performance
 - Compare revenue and profitability across markets and regions.
 - Identify geographical areas with higher late-delivery rates.
 - Examine regional differences in supply chain performance.
+  
 Objective 5: Analyse Customer Segment Performance
 - Compare sales contributions across customer segments.
 - Examine customer ordering patterns and purchase frequency.
 - Identify segments contributing the highest revenue and profitability.
+  
 🗂️ 4. Dataset Description
 The project uses nine CSV datasets, with record counts verified from the supplied files, and one Data Dictionary.
 No.	Dataset	Records	Columns	Description
@@ -69,6 +76,7 @@ No.	Dataset	Records	Columns	Description
 
 
 Data Dictionary.docx documents the meaning of the fields and helps identify table relationships. Record counts represent rows in individual files, not distinct customers or orders across the entire model; they should not be added together as a business total.
+
 🛠️ 5. Project Methodology
 Phase 1: Data Collection and Understanding
 - Load all nine datasets from GitHub using Python Pandas.
