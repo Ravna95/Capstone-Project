@@ -3,7 +3,7 @@ Prepared by Ravna
 📊 #  DataCo Supply Chain Performance Analysis #
 
 
-Improving Delivery Efficiency, Sales and Profitability Through Business Analytics
+***Optimizing Shipping Mode Profitability & Cost Efficiency Through Business Analytics***
 
 
 <img width="733" height="384" alt="image" src="https://github.com/user-attachments/assets/4cdca9e1-8699-4472-8b6d-2739840ff161" />
@@ -32,52 +32,47 @@ Dataset repository: [Ravna – Capstone Project](https://github.com/RavnaSrikant
 Link to Jupyter Notebook in Google Colab: https://colab.research.google.com/drive/1eMJr6zUDOovSVQi-Qaihhl-L1ErGP24V?usp=sharing
 
 
-🧭 # Project Navigation
+🧭 1. Project Overview
+This capstone project analyses DataCo supply chain operations using nine related CSV datasets and their Data Dictionary. It examines customer orders, shipping mode profitability, cost efficiency, product sales, profit margins, and customer segments. Python will support data preparation and exploratory data analysis (EDA), while Power BI will present interactive dashboards to support logistics and financial decisions.
 
-· Problem Statement 
-· Research Objectives 
-· Dataset Description 
-· Methodology 
-· KPIs 
-· EDA 
-· Power BI 
-· Deliverables
 
 🎯 2. Problem Statement
 
-DataCo handles orders across different products, shipping modes and geographical markets. Late deliveries and low-profit transactions may affect operational efficiency and business outcomes. Without integrated reporting, it can be difficult to compare delivery performance and understand which products, customer segments and markets contribute to sales and profitability.
+DataCo utilizes multiple shipping tiers (Standard Class, Second Class, First Class, and Same Day) to deliver products globally. While premium shipping options aim to satisfy customer demand, high shipping costs and unaligned discount strategies can severely erode profit margins across different product lines. Without detailed financial reporting, logistics teams cannot easily determine which shipping modes deliver the highest net profitability.
 
-Main research question: How can DataCo use historical order, shipping, sales and profitability data to identify performance patterns and support improvements in supply chain decision-making?
-The analysis will identify measurable patterns and opportunities; it will not assume that the available data can prove the causes of delivery delays.
+Main research question: How can DataCo analyze transaction revenues, discounts, and fulfillment costs across shipping modes to identify the most profitable logistics strategies and reduce low-margin shipments?
+The analysis will identify measurable profit patterns, cost drivers, and optimization opportunities; it will evaluate observed transactional data without assuming unmeasured operational overheads.
+
 
 📋 3. Research Objectives
 
 The project focuses on five research objectives:
 
 Objective 1: Analyse Overall Sales Performance
-- Calculate total sales revenue and order volume.
-- Examine monthly and yearly sales trends.
-- Identify products and categories contributing the highest sales.
-  
-Objective 2: Evaluate Delivery Performance
-- Calculate the percentage of late deliveries.
-- Compare actual shipping days with scheduled shipping days.
-- Compare delivery performance across shipping modes.
-  
-Objective 3: Analyse Product and Category Profitability
-- Identify the most and least profitable products and categories.
-- Compare revenue and profit across departments.
-- Examine associations between discounts and profitability.
-  
-Objective 4: Evaluate Geographical Sales and Delivery Performance
-- Compare revenue and profitability across markets and regions.
-- Identify geographical areas with higher late-delivery rates.
-- Examine regional differences in supply chain performance.
-  
-Objective 5: Analyse Customer Segment Performance
-- Compare sales contributions across customer segments.
-- Examine customer ordering patterns and purchase frequency.
-- Identify segments contributing the highest revenue and profitability.
+• Calculate total sales revenue and order volume.
+• Examine monthly and yearly sales trends.
+• Identify products and categories contributing the highest sales.
+
+
+Objective 2: Evaluate Shipping Mode Performance & Fulfillment Efficiency
+• Compare actual shipping duration with scheduled shipping days across shipping modes.
+• Evaluate fulfillment speed and operational consistency across shipping tiers.
+
+
+Objective 3: Analyse Product, Category and Department Profitability
+• Identify the most and least profitable products and categories.
+• Compare revenue and profit across departments.
+• Examine associations between discounts and profitability.
+
+
+Objective 4: Analyse Shipping Mode Profitability & Cost Efficiency (Descriptive & Predictive)
+• Compare revenue and profit margins generated across Standard, Second Class, First Class, and Same Day shipping.
+• Build a predictive classification model to identify high-margin versus low-margin/unprofitable shipments based on shipping mode, discount rate, and product category.
+
+Objective 5: Analyse Customer Segment Performance & Purchasing Patterns
+• Compare sales contributions and net profit across customer segments.
+• Examine customer ordering frequency and purchasing behavior across shipping tiers.
+.
   
 🗂️ 4. Dataset Description
 
@@ -104,7 +99,9 @@ No.	Dataset	Records	Columns	Description
 9	Payment Types.csv	4	2	Payment method reference 
 
 
-Data Dictionary.docx documents the meaning of the fields and helps identify table relationships. Record counts represent rows in individual files, not distinct customers or orders across the entire model; they should not be added together as a business total.
+
+Data Dictionary.docx documents the meaning of the fields and helps identify table relationships. Record counts represent rows in individual files, not distinct customers or orders across the entire model; they should not be added together as a business total
+
 
 🛠️ 5. Project Methodology
 
