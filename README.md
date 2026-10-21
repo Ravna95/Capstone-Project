@@ -51,9 +51,7 @@ The project focuses on five research objectives:
 Objective 1: Analyse Overall Sales Performance
 
 • Calculate total sales revenue and order volume.
-
 • Examine monthly and yearly sales trends.
-
 • Identify products and categories contributing the highest sales.
 
 
