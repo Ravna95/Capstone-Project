@@ -120,51 +120,51 @@ Data Dictionary.docx documents the meaning of the fields and helps identify tabl
 
 Phase 1: Data Collection and Understanding
 
-- Load all nine datasets from GitHub using Python Pandas.
-- Inspect columns, row counts, data types and sample records.
-- Compare fields and identifiers with the Data Dictionary.
-  
+• Load all nine datasets from GitHub using Python Pandas.
+• Inspect columns, row counts, data types and sample records.
+• Compare fields and identifiers with the Data Dictionary.
+
 Phase 2: Data Cleaning and Preprocessing
-- Examine missing values, duplicate records and invalid values.
-- Convert date fields to suitable date/time types.
-- Check key uniqueness and referential integrity.
-- Exclude unnecessary customer names, addresses, email addresses and password fields from analytical outputs.
-- Document all cleaning decisions instead of automatically deleting records.
-  
+• Examine missing values, duplicate records and invalid values.
+• Convert date fields to suitable date/time types.
+• Check key uniqueness and referential integrity.
+• Exclude unnecessary customer names, addresses, email addresses and password fields from analytical outputs.
+
 Phase 3: Data Integration
-- Relate orders to order items, customers, shipping, geography and payment methods.
-- Relate products to categories and departments.
-- Validate join cardinality and row counts to prevent double-counting.
-- Prepare clean analytical tables for Power BI.
-  
-Phase 4: Exploratory Data Analysis (EDA)
-- Analyse sales trends and order volumes.
-- Examine late delivery rates and shipping mode performance.
-- Compare profitability by product, category and department.
-- Compare markets and regions.
-- Evaluate customer segments and ordering patterns.
-  
+• Relate orders to order items, customers, shipping, geography and payment methods.
+• Relate products to categories and departments.
+• Validate join cardinality and row counts to prevent double-counting.
+• Prepare clean analytical tables for Power BI.
+
+Phase 4: Exploratory Data Analysis (EDA) & Modeling
+• Analyse sales trends, order volumes, and product/category profitability.
+• Evaluate shipping mode profit margins, discount impacts, and fulfillment efficiency.
+• Build and evaluate predictive classification models for shipping profitability.
+
 Phase 5: Reporting and Visualisation
-- Produce explanatory Python charts.
-- Build interactive Power BI dashboards with filters.
-- Document verified insights and practical recommendations.
+• Produce explanatory Python charts and machine learning evaluation visuals.
+• Build interactive Power BI dashboards with filters for shipping modes and categories.
+• Document verified insights and practical recommendations.
+
   
-📈 6. Key Performance Indicators (KPIs)
+📈 6. Key Performance Indicators (KPIs) & Model Metrics
 
-KPI	Purpose
-Total Sales Revenue	Overall sales performance
-Total Orders	Distinct order volume
-Total Profit	Overall profitability using validated profit fields
-Profit Margin (%)	Profit relative to sales
-Late Delivery Rate (%)	Share of orders classified as late
-Average Actual Shipping Days	Observed shipping duration
-Average Scheduled Shipping Days	Planned shipping duration
-Sales by Category	Product category contribution
-Sales by Market	Geographical contribution
-Sales by Customer Segment	Segment contribution
+KPI / Metric                	      Purpose & Business Relevance
+Total Sales Revenue         	      Overall sales performance across orders and products
+Total Orders	                     Distinct order volume processed across logistics channels
+Total Profit & Profit Margin (%)   	Overall and relative net profitability using validated profit fields
+Profitability by Shipping Mode	   Net revenue and profit margin generated across Standard, Second Class, First Class, and Same Day shipping
+Average Discount Rate (%)	         Depth of promotional discounts applied across shipping tiers
+Fulfillment Cost Efficiency Index	Shipping mode margin retention relative to product price and discount depth
+Average Actual vs. Scheduled Days	Observed versus planned shipping duration across logistics modes
+Model Accuracy (%)	               Overall predictive accuracy of shipping profitability classification model
+Precision, Recall, and F1-Score   	Model performance in correctly identifying low-margin versus high-margin shipments
+Feature Importance Scores	         Key operational drivers influencing order profitability and shipping efficiency
 
 
-Calculation note: Profit fields and order-level measures will be checked against the Data Dictionary and their actual values before aggregation. A line-item table can repeat order-level values, so naive sums may overstate results.
+|| Calculation note: Profit fields and order-level measures will be checked against the Data Dictionary and their actual values before aggregation. A line-item table can repeat order-level values, so naive sums may overstate results.
+
+
 
 🔍 7. Exploratory Data Analysis
 
