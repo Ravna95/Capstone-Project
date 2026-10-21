@@ -51,29 +51,41 @@ The project focuses on five research objectives:
 Objective 1: Analyse Overall Sales Performance
 
 • Calculate total sales revenue and order volume.
+
 • Examine monthly and yearly sales trends.
+
 • Identify products and categories contributing the highest sales.
 
 
 Objective 2: Evaluate Shipping Mode Performance & Fulfillment Efficiency
+
 • Compare actual shipping duration with scheduled shipping days across shipping modes.
+
 • Evaluate fulfillment speed and operational consistency across shipping tiers.
 
 
 Objective 3: Analyse Product, Category and Department Profitability
+
 • Identify the most and least profitable products and categories.
+
 • Compare revenue and profit across departments.
+
 • Examine associations between discounts and profitability.
 
 
 Objective 4: Analyse Shipping Mode Profitability & Cost Efficiency (Descriptive & Predictive)
+
 • Compare revenue and profit margins generated across Standard, Second Class, First Class, and Same Day shipping.
+
 • Build a predictive classification model to identify high-margin versus low-margin/unprofitable shipments based on shipping mode, discount rate, and product category.
 
+
 Objective 5: Analyse Customer Segment Performance & Purchasing Patterns
+
 • Compare sales contributions and net profit across customer segments.
+
 • Examine customer ordering frequency and purchasing behavior across shipping tiers.
-.
+
   
 🗂️ 4. Dataset Description
 
