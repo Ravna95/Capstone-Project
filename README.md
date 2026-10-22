@@ -1,12 +1,7 @@
-Prepared by Ravna
-
-📊 #  DataCo Supply Chain Performance Analysis #
-
-
-***Optimizing Shipping Mode Profitability & Cost Efficiency Through Business Analytics***
-
 
 <img width="733" height="384" alt="image" src="https://github.com/user-attachments/assets/4cdca9e1-8699-4472-8b6d-2739840ff161" />
+
+Prepared by Ravna
 
 
 # DataCo Supply Chain Performance Analysis
