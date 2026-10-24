@@ -230,6 +230,38 @@ Target:
 - Sales Trends
 - Category Performance
 
+<img width="1117" height="651" alt="image" src="https://github.com/user-attachments/assets/8cb08680-567f-4b57-96b7-e8d1fcd83406" />
+
+## 📈 Executive Summary & Key Metrics
+
+* **Total Sales:** $36.78M (Gross revenue generated across the dataset)
+* **Total Orders:** 65.75K (Distinct customer orders processed, averaging ~$560 per order)
+* **Total Profit:** $3.97M (Net benefit/profit after costs)
+* **Profit Margin:** ~12% (Stable and healthy operational return)
+
+---
+
+## 📅 Visualizations & Dashboard Components
+
+### 1. Headline KPI Cards (Top Section)
+* Four summary cards providing an instant view of **Total Sales**, **Total Orders (Distinct Count)**, **Total Profit**, and **Profit Margin**.
+
+### 2. Sales Trends (Line Chart)
+* **Seasonal Peak:** Sales reach their annual high in **January (~$3.46M)** due to post-holiday demand.
+* **Stable Period:** Monthly sales remain steady between **$3.1M and $3.2M** from March through October.
+* **Year-End Dip:** Noticeable decrease in November and December (~$2.6M–$2.7M), highlighting potential end-of-year fulfillment or stock constraints.
+
+### 3. Category Performance (Bar Chart)
+* **Top Revenue Drivers:** **Fishing ($6.93M)**, **Cleats ($4.43M)**, and **Camping & Hiking ($4.12M)** dominate product sales.
+* **Low Performers:** Minor product categories (Books, Golf Bags, Toys, CDs) generate under $15K each, contributing minimally to total revenue.
+
+---
+
+## 💡 Key Takeaway & Strategic Recommendations
+> *"Our supply chain is highly profitable and driven primarily by sports and outdoor equipment. To maximize future growth, operations should prioritize inventory availability for top categories (like Fishing and Cleats) to prevent stockouts during peak seasons, while reviewing low-demand catalog items to optimize warehouse space and working capital."*
+
+
+
 ## Dashboard 2: Shipping Performance
 
 - Profit by Shipping Mode
