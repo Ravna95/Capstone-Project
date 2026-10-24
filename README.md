@@ -298,6 +298,28 @@ Target:
 - Regional Profitability
 
 ---
+<img width="983" height="604" alt="image" src="https://github.com/user-attachments/assets/06b7f7c4-de06-4d0c-8718-1d5d781c5778" />
+
+---
+
+## 🌍 Customer & Geography Analysis Overview
+
+### 1. Customer Segment Revenue
+* **Consumer Leadership:** The **Consumer** segment is our primary revenue driver (~$19M+ in total sales), followed by **Corporate** (~$11M) and **Home Office** (~$6M).
+
+### 2. Market Sales & Order Volume
+* **Top Geographic Markets:** **Europe** and **LATAM** lead in both total sales volume (~$10M+ each) and overall order count (~18K+ orders each).
+* **Pacific Asia & USCA:** **Pacific Asia** demonstrates strong revenue (~$8M) and high order activity, while **USCA** and **Africa** represent steady growth opportunities.
+
+### 3. Country Profitability Breakdown
+* **Top Profit Drivers:** The **United States (Estados Unidos)** generates the highest net profit by a significant margin (~$0.54M), followed by **France (Francia)** (~$0.33M) and **Mexico (México)** (~$0.30M).
+* **High-Margin Regions:** **Germany (Alemania)** and **Brazil (Brasil)** round out the top 5 most profitable country markets.
+
+---
+
+### 💡 Geography Key Takeaway
+> *"The Consumer segment forms our core customer base across all global operations. Europe and LATAM drive the highest overall market volume, while key countries such as the United States, France, and Mexico generate the largest net profits. Strategic expansion and marketing efforts should continue to prioritize high-margin country markets to maximize profitability."*
+
 
 # 9. Key Findings and Business Insights
 
