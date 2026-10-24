@@ -79,9 +79,9 @@ While faster shipping methods improve customer satisfaction, higher shipping cos
 
 ## Objective 5: Analyze Customer Segment Performance & Purchasing Patterns
 
-- Compare sales contributions across customer segments.
-- Evaluate customer profitability.
-- Examine purchasing behavior and shipping preferences.
+- Compare revenue and profit contributions across customer segments.
+- Evaluate order behaviors and shipping mode preferences by segment.
+
 
 ---
 
