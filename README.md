@@ -269,6 +269,27 @@ Target:
 - Discount Analysis
 - Delivery Performance
 
+<img width="977" height="631" alt="image" src="https://github.com/user-attachments/assets/839bb71e-ea7a-4d85-97af-ee7cc331fd2a" />
+## 🚚 Shipping Performance Overview
+
+### 1. Profit & Sales by Shipping Mode
+* **Standard Class Dominance:** Standard Class handles the vast majority of our total sales volume (~$20M+) and generates the highest net profit (~$2.5M).
+* **Express & Priority (Second Class, First Class, Same Day):** While smaller in overall volume, these premium options provide steady supplementary revenue and profit streams.
+
+### 2. Discount Impact Analysis
+* **Higher Discounts, Lower Returns:** Profit peaks when discount rates are low (0.0 to 0.05). As discount rates increase, overall profitability gradually declines, indicating that steep discounts erode margins without proportional profit gains.
+
+### 3. Delivery Performance Breakdown
+* **Fulfillment Status:** The donut chart shows that the vast majority of our orders are shipped on time, in advance, or via standard delivery, with only a small percentage experiencing late delivery risk or cancellations.
+
+---
+
+### 💡 Shipping Key Takeaway
+> *"Standard Class is our primary driver for both sales volume and profit. Furthermore, while discounts attract initial interest, keeping discount rates minimal preserves our net profit margins. Maintaining reliable delivery standards for our top shipping modes will keep customer satisfaction high while protecting profitability.
+
+
+
+
 ## Dashboard 3: Customer & Geography Analysis
 
 - Customer Segment Revenue
