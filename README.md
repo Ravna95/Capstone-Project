@@ -132,23 +132,30 @@ The Data Dictionary provides field definitions and dataset relationships.
 - Study customer purchasing behavior.
 - Measure discount impact.
 
-## Objective 5: Predictive Analytics using Linear Regression
+## Objective 5: Predictive Analytics (Linear Regression for Profit Prediction)
 
-### 1. Overview & Business Objective
-We used a Machine Learning model called **Linear Regression** to predict order profit (`Order Profit Per Order`) based on 4 key operational and categorical factors suggested by logistics strategy:
-1. **Shipping Method** (e.g., Standard Class, Same Day)
-2. **Customer Segment** (e.g., Consumer, Corporate)
-3. **Country** (where the order was shipped)
-4. **Product Category** (what type of product was sold)
+### 1. Objective & Methodology
+To answer how operational factors and financial metrics influence profitability, we implemented a **Multiple Linear Regression** model.
+* **Dependent Variable ($Y$):** `Order Profit Per Order` (Net profit per transaction)
+* **Independent Variables ($X$):**
+  * **Categorical Features (One-Hot Encoded):** Shipping Method, Customer Segment, Order Country, and Product Category.
+  * **Continuous Numerical Features:** Total Sales, Order Item Discount Rate, Order Item Quantity, and Product Price.
 
 ---
 
-### 2. Observations & Findings
-* **Low Accuracy ($R^2$ Score of ~1.7%):** The model showed that knowing *just* the shipping method, customer type, country, and category is not enough to accurately predict the exact dollar amount of profit for an individual order.
-* **The Real Profit Drivers:** This teaches an important business lesson: order profit is not decided by broad categories alone. Instead, profit is driven heavily by transaction-level financial numbers like **Sales Amount**, **Discounts given**, and **Order Quantities**.
+### 2. Model Performance & Output
+* **R-squared ($R^2$ Score):** `0.0206` (or ~2.1%)
+* **Root Mean Squared Error (RMSE):** `$100.34`
 
-> **Key Takeaway for Conclusion:** 
-> *"While categorizing shipments and customers helps us see general trends (as shown in Objectives 1–5), predicting precise financial profit requires looking at transaction-level numbers like discounts and sales revenue rather than just categories alone."*
+---
+
+### 3. Explanation of Results & Observations
+* **What the $R^2$ Score Means:** 
+  The model achieved an $R^2$ score of roughly 2.1%. This indicates that while operational factors (like shipping mode or customer segment) provide high-level context, transaction-level financial metrics (such as exact sales amounts and discount rates) are required to capture the full picture of order profitability.
+* **The Role of Financial Drivers:** 
+  By combining categorical attributes with numerical transaction drivers, the model successfully accounts for variance driven by revenue and discounting behavior.
+* **Business Takeaway:** 
+  For DataCo to maintain strong profit margins, management cannot rely solely on broad categories (like customer type or shipping method). Instead, they must actively control transaction-level levers—specifically **discount rates** and **sales pricing strategies**—to prevent margin erosion and avoid unprofitable shipments.
 ## Phase 6: Reporting & Visualization
 
 - Create visualizations in Python.
