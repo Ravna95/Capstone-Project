@@ -132,12 +132,23 @@ The Data Dictionary provides field definitions and dataset relationships.
 - Study customer purchasing behavior.
 - Measure discount impact.
 
-## Phase 5: Predictive Modeling
+## Objective 5: Predictive Analytics using Linear Regression
 
-- Build Random Forest classification models.
-- Predict profitable vs unprofitable shipments.
-- Evaluate model performance.
+### 1. Overview & Business Objective
+We used a Machine Learning model called **Linear Regression** to predict order profit (`Order Profit Per Order`) based on 4 key operational and categorical factors suggested by logistics strategy:
+1. **Shipping Method** (e.g., Standard Class, Same Day)
+2. **Customer Segment** (e.g., Consumer, Corporate)
+3. **Country** (where the order was shipped)
+4. **Product Category** (what type of product was sold)
 
+---
+
+### 2. Observations & Findings
+* **Low Accuracy ($R^2$ Score of ~1.7%):** The model showed that knowing *just* the shipping method, customer type, country, and category is not enough to accurately predict the exact dollar amount of profit for an individual order.
+* **The Real Profit Drivers:** This teaches an important business lesson: order profit is not decided by broad categories alone. Instead, profit is driven heavily by transaction-level financial numbers like **Sales Amount**, **Discounts given**, and **Order Quantities**.
+
+> **Key Takeaway for Conclusion:** 
+> *"While categorizing shipments and customers helps us see general trends (as shown in Objectives 1–5), predicting precise financial profit requires looking at transaction-level numbers like discounts and sales revenue rather than just categories alone."*
 ## Phase 6: Reporting & Visualization
 
 - Create visualizations in Python.
