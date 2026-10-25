@@ -135,7 +135,7 @@ The Data Dictionary provides field definitions and dataset relationships.
 ## Objective 5: Predictive Analytics (Linear Regression for Profit Prediction)
 
 ### 1. Objective & Methodology
-To answer how operational factors and financial metrics influence profitability, we implemented a **Multiple Linear Regression** model.
+To answer how operational factors and financial metrics influence profitability, implemented a **Multiple Linear Regression** model.
 * **Dependent Variable ($Y$):** `Order Profit Per Order` (Net profit per transaction)
 * **Independent Variables ($X$):**
   * **Categorical Features (One-Hot Encoded):** Shipping Method, Customer Segment, Order Country, and Product Category.
