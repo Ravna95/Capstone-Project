@@ -144,7 +144,7 @@ To answer how operational factors and financial metrics influence profitability,
 ---
 
 ### 2. Model Performance & Output
-* **R-squared ($R^2$ Score):** `0.0206` (or ~2.1%)
+* **R-squared ($R^2$ Score):** `0.0206` (or ~2.1%) 
 * **Root Mean Squared Error (RMSE):** `$100.34`
 
 ---
