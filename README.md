@@ -248,7 +248,8 @@ Target:
 - Sales Trends
 - Category Performance
 
-<img width="1117" height="651" alt="image" src="https://github.com/user-attachments/assets/8cb08680-567f-4b57-96b7-e8d1fcd83406" />
+<img width="1083" height="667" alt="image" src="https://github.com/user-attachments/assets/45624eec-2b01-4489-8f61-a8309901a9e4" />
+
 
 ## 📈 Executive Summary & Key Metrics
 
