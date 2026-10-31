@@ -1,5 +1,6 @@
 
-<img width="733" height="384" alt="image" src="https://github.com/user-attachments/assets/4cdca9e1-8699-4472-8b6d-2739840ff161" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/6772012c-b0a9-4833-9ba2-25a0f2fe004a" />
+
 
 Prepared by Ravna
 
