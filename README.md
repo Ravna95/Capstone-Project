@@ -250,35 +250,32 @@ Target:
 
 <img width="1083" height="667" alt="image" src="https://github.com/user-attachments/assets/45624eec-2b01-4489-8f61-a8309901a9e4" />
 
-
-## 📈 Executive Summary & Key Metrics
-
-* **Total Sales:** $36.78M (Gross revenue generated across the dataset)
-* **Total Orders:** 65.75K (Distinct customer orders processed, averaging ~$560 per order)
-* **Total Profit:** $3.97M (Net benefit/profit after costs)
-* **Profit Margin:** ~12% (Stable and healthy operational return)
+## Executive Summary & Key Metrics
+* **Total Sales Revenue:** $36.78M (Gross revenue generated across the dataset)
+* **Total Order Volume:** 65.752K (Distinct customer orders processed)
+* **Total Net Profit:** $3.97M (Net benefit/profit after costs)
+* **Profit Margin (%):** 10.78% (Exact operational return rate)
 
 ---
 
-## 📅 Visualizations & Dashboard Components
+## Visualizations & Dashboard Components
 
 ### 1. Headline KPI Cards (Top Section)
-* Four summary cards providing an instant view of **Total Sales**, **Total Orders (Distinct Count)**, **Total Profit**, and **Profit Margin**.
+Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volume** (65.752K), **Total Net Profit** ($3.97M), and **Profit Margin (%)** (10.78%).
 
-### 2. Sales Trends (Line Chart)
-* **Seasonal Peak:** Sales reach their annual high in **January (~$3.46M)** due to post-holiday demand.
-* **Stable Period:** Monthly sales remain steady between **$3.1M and $3.2M** from March through October.
-* **Year-End Dip:** Noticeable decrease in November and December (~$2.6M–$2.7M), highlighting potential end-of-year fulfillment or stock constraints.
+### 2. Sum of Sales by Month (Area / Line Chart)
+* **Seasonal Peak:** Sales peak in January at $3.46M.
+* **Mid-Year Performance:** Experience a mid-Q1 dip in February ($2.89M) before holding steady between $3.05M and $3.19M from March through October.
+* **Year-End Decline:** Sales decline toward the end of the year in November ($2.70M) and hit a low in December ($2.60M).
 
-### 3. Category Performance (Bar Chart)
-* **Top Revenue Drivers:** **Fishing ($6.93M)**, **Cleats ($4.43M)**, and **Camping & Hiking ($4.12M)** dominate product sales.
-* **Low Performers:** Minor product categories (Books, Golf Bags, Toys, CDs) generate under $15K each, contributing minimally to total revenue.
+### 3. Sum of Sales by Category Name (Bar Chart)
+* **Top Revenue Drivers:** **Fishing** leads heavily near $7M, followed by **Cleats** (~$4.4M), **Camping & Hiking** (~$4.1M), and **Cardio Equipment** (~$3.7M).
+* **Mid-to-Lower Performers:** Categories like **Shop By Sport**, **Computers**, **Electronics**, **Cameras**, **Garden**, and **Children's Clothing** generate significantly lower revenue under $1.5M each.
 
 ---
 
 ## 💡 Key Takeaway & Strategic Recommendations
-> *"Our supply chain is highly profitable and driven primarily by sports and outdoor equipment. To maximize future growth, operations should prioritize inventory availability for top categories (like Fishing and Cleats) to prevent stockouts during peak seasons, while reviewing low-demand catalog items to optimize warehouse space and working capital."*
-
+> "Our business is highly profitable and driven primarily by sports and outdoor categories—led overwhelmingly by **Fishing**. To maximize future growth, operations should focus on maintaining stock availability for top-performing outdoor and fitness lines while reviewing inventory allocation for lower-volume electronics and apparel categories."
 
 
 ## Dashboard 2: Shipping Performance
@@ -288,23 +285,25 @@ Target:
 - Discount Analysis
 - Delivery Performance
 
-<img width="977" height="631" alt="image" src="https://github.com/user-attachments/assets/839bb71e-ea7a-4d85-97af-ee7cc331fd2a" />
-## 🚚 Shipping Performance Overview
+<img width="1154" height="684" alt="image" src="https://github.com/user-attachments/assets/06d43dd5-d79e-478b-9f30-7a7b67f53357" />
 
-### 1. Profit & Sales by Shipping Mode
-* **Standard Class Dominance:** Standard Class handles the vast majority of our total sales volume (~$20M+) and generates the highest net profit (~$2.5M).
+
+# Dashboard 2: Shipping Performance
+
+## 1. Profit & Sales by Shipping Method
+* **Standard Class Dominance:** Standard Class handles the vast majority of our total sales volume (~$7M+) and generates the highest net profit (~$0.8M).
 * **Express & Priority (Second Class, First Class, Same Day):** While smaller in overall volume, these premium options provide steady supplementary revenue and profit streams.
 
-### 2. Discount Impact Analysis
-* **Higher Discounts, Lower Returns:** Profit peaks when discount rates are low (0.0 to 0.05). As discount rates increase, overall profitability gradually declines, indicating that steep discounts erode margins without proportional profit gains.
+## 2. Discount Impact Analysis
+* **Higher Discounts, Lower Returns:** Profit peaks when discount rates are low (0.0 to 0.05). As discount rates increase, overall profitability gradually fluctuates downward, indicating that steep discounts erode margins without proportional profit gains.
 
-### 3. Delivery Performance Breakdown
-* **Fulfillment Status:** The donut chart shows that the vast majority of our orders are shipped on time, in advance, or via standard delivery, with only a small percentage experiencing late delivery risk or cancellations.
+## 3. Delivery Performance Breakdown
+* **Fulfillment Status:** The donut chart (totaling 62.65K orders) shows that the majority of our orders are shipped on time, in advance, or via standard delivery, with specific tracking for late deliveries, advance shipping, shipping on time, and shipping canceled.
 
 ---
 
-### 💡 Shipping Key Takeaway
-> *"Standard Class is our primary driver for both sales volume and profit. Furthermore, while discounts attract initial interest, keeping discount rates minimal preserves our net profit margins. Maintaining reliable delivery standards for our top shipping modes will keep customer satisfaction high while protecting profitability.
+## 💡 Shipping Key Takeaway
+> "Standard Class is our primary driver for both sales volume and profit. Furthermore, while discounts attract initial interest, keeping discount rates minimal preserves our net profit margins. Maintaining reliable delivery standards for our top shipping modes will keep customer satisfaction high while protecting profitability."
 
 
 
@@ -317,41 +316,58 @@ Target:
 - Regional Profitability
 
 ---
-<img width="983" height="604" alt="image" src="https://github.com/user-attachments/assets/06b7f7c4-de06-4d0c-8718-1d5d781c5778" />
-
----
+<img width="1105" height="651" alt="image" src="https://github.com/user-attachments/assets/ae9f3009-f0b4-4fff-9f6f-11da4dc5cde4" />
+# Dashboard 3: Customer & Geography Analysis
 
 ## 🌍 Customer & Geography Analysis Overview
 
-### 1. Customer Segment Revenue
-* **Consumer Leadership:** The **Consumer** segment is our primary revenue driver (~$19M+ in total sales), followed by **Corporate** (~$11M) and **Home Office** (~$6M).
+### 1. Sales by Customer Segment (Bar Chart)
+* **Consumer Leadership:** The **Consumer** segment is our primary revenue driver (approx. $19M in total sales), followed by **Corporate** ($11M) and **Home Office** (approx. $6.5M).
 
-### 2. Market Sales & Order Volume
-* **Top Geographic Markets:** **Europe** and **LATAM** lead in both total sales volume (~$10M+ each) and overall order count (~18K+ orders each).
-* **Pacific Asia & USCA:** **Pacific Asia** demonstrates strong revenue (~$8M) and high order activity, while **USCA** and **Africa** represent steady growth opportunities.
+### 2. Order Volume by Market (Bar Chart)
+* **Top Order Markets:** **Europe** leads in order volume (approx. 18.5K orders), closely followed by **Pacific Asia** (approx. 17.5K) and **LATAM** (approx. 17K), while **USCA** (approx. 8.5K) and **Africa** (approx. 4K) follow behind.
 
-### 3. Country Profitability Breakdown
-* **Top Profit Drivers:** The **United States (Estados Unidos)** generates the highest net profit by a significant margin (~$0.54M), followed by **France (Francia)** (~$0.33M) and **Mexico (México)** (~$0.30M).
-* **High-Margin Regions:** **Germany (Alemania)** and **Brazil (Brasil)** round out the top 5 most profitable country markets.
+### 3. Total Sales by Market (Bar Chart)
+* **Top Revenue Markets:** **Europe** and **LATAM** lead in total sales revenue (approx. $10.8M and approx. $10.3M respectively), followed by **Pacific Asia** ($8.3M), **USCA** ($5.1M), and **Africa** (approx. $2.3M).
+
+### 4. Top Country Profitability (Bar Chart)
+* **Top Profit Drivers:** **Estados Unidos** generates the highest net profit by a significant margin (approx. $0.54M), followed by **Francia** ($0.33M) and **México** (approx. $0.3M).
+* **High-Margin Regions:** **Alemania** ($0.2M) and **Brasil** (approx. $0.19M) round out the top 5 most profitable country markets.
 
 ---
 
-### 💡 Geography Key Takeaway
-> *"The Consumer segment forms our core customer base across all global operations. Europe and LATAM drive the highest overall market volume, while key countries such as the United States, France, and Mexico generate the largest net profits. Strategic expansion and marketing efforts should continue to prioritize high-margin country markets to maximize profitability."*
+## 💡 Geography Key Takeaway
+> "The Consumer segment forms our core customer base across all global operations. Europe and LATAM drive the highest overall market sales and order volume, while key countries such as the United States (Estados Unidos), France (Francia), and Mexico (México) generate the largest net profits. Strategic expansion and marketing efforts should continue to prioritize high-margin country markets to maximize profitability."
 
+---
 
 # 9. Key Findings and Business Insights
 
-To be completed after analysis.
-
-Key findings will include:
-
-- Supporting visualizations
-- Calculations
-- Business interpretation
-- Study limitations
+* **Supporting visualizations:** Dashboard 3 successfully outlines customer segments, market-level sales and orders, and top country profitability.
+* **Calculations:** Total revenue contributions are distributed across three distinct customer segments and five international markets.
+* **Business interpretation:** Regional demand is heavily concentrated in Europe and LATAM, while profitability is anchored strongly by the US and key European/Latin American countries.
+* **Study limitations:** Analysis is constrained by regional aggregation levels and currency standardization across diverse global markets.
 
 ---
+
+# 9. Key Findings and Business Insights
+
+* **Supporting visualizations:** Dashboard 3 successfully outlines customer segments, market-level sales and orders, and top country profitability.
+* **Calculations:** Total revenue contributions are distributed across three distinct customer segments and five international markets.
+* **Business interpretation:** Regional demand is heavily concentrated in Europe and LATAM, while profitability is anchored strongly by the US and key European/Latin American countries.
+* **Study limitations:** Analysis is constrained by regional aggregation levels and currency standardization across diverse global markets.
+
+
+---
+
+# 9. Key Findings and Business Insights
+
+* **Supporting visualizations:** Dashboard 3 successfully outlines customer segments, market-level sales and orders, and top country profitability.
+* **Calculations:** Total revenue contributions are distributed across three distinct customer segments and five international markets.
+* **Business interpretation:** Regional demand is heavily concentrated in Europe and LATAM, while profitability is anchored strongly by the US and key European/Latin American countries.
+* **Study limitations:** Analysis is constrained by regional aggregation levels and currency standardization across diverse global markets.
+
+
 
 # 10. Business Recommendations
 
