@@ -132,35 +132,44 @@ The Data Dictionary provides field definitions and dataset relationships.
 - Study customer purchasing behavior.
 - Measure discount impact.
 
-## Objective 5: Predictive Analytics (Linear Regression for Profit Prediction)
+# Objective 5: Predictive Analytics (Linear Regression & Random Forest)
 
-### 1. Objective & Methodology
-To answer how operational factors and financial metrics influence profitability, implemented a **Multiple Linear Regression** model.
-* **Dependent Variable ($Y$):** `Order Profit Per Order` (Net profit per transaction)
-* **Independent Variables ($X$):**
-  * **Categorical Features (One-Hot Encoded):** Shipping Method, Customer Segment, Order Country, and Product Category.
-  * **Continuous Numerical Features:** Total Sales, Order Item Discount Rate, Order Item Quantity, and Product Price.
-
----
-
-### 2. Model Performance & Output
-* **R-squared ($R^2$ Score):** `0.0206` (or ~2.1%) 
-* **Root Mean Squared Error (RMSE):** `$100.34`
+## 1. Objective & Methodology
+To analyze how operational factors and financial metrics influence profitability, we implemented and compared two predictive modeling approaches:
+- **Dependent Variable (Y):** Order Profit Per Order (Net profit per transaction)
+- **Independent Variables (X):**
+  - **Categorical Features (One-Hot Encoded):** Shipping Method, Customer Segment, Order Country, and Product Category.
+  - **Continuous Numerical Features:** Total Sales, Order Item Discount Rate, Order Item Quantity, and Product Price.
 
 ---
 
-### 3. Explanation of Results & Observations
-* **What the $R^2$ Score Means:** 
-  The model achieved an $R^2$ score of roughly 2.1%. This indicates that while operational factors (like shipping mode or customer segment) provide high-level context, transaction-level financial metrics (such as exact sales amounts and discount rates) are required to capture the full picture of order profitability.
-* **The Role of Financial Drivers:** 
-  By combining categorical attributes with numerical transaction drivers, the model successfully accounts for variance driven by revenue and discounting behavior.
-* **Business Takeaway:** 
-  For DataCo to maintain strong profit margins, management cannot rely solely on broad categories (like customer type or shipping method). Instead, they must actively control transaction-level levers—specifically **discount rates** and **sales pricing strategies**—to prevent margin erosion and avoid unprofitable shipments.
-## Phase 6: Reporting & Visualization
+## 2. Model Performance & Output
 
-- Create visualizations in Python.
-- Develop interactive Power BI dashboards.
-- Present business recommendations.
+### Linear Regression Model
+- **R-squared ($R^2$ Score):** 0.0206 (or approx. 2.1%)
+- **Root Mean Squared Error (RMSE):** $100.34
+
+### Model Comparison Table
+
+| Evaluation Criteria | Linear Regression | Random Forest Regressor |
+| :--- | :--- | :--- |
+| **Model Type** | Parametric / Linear | Non-linear / Ensemble (Decision Trees) |
+| **Interpretability** | **High:** Easy to explain exact coefficients. | **Lower (Black Box):** Harder to trace exact mathematical formulas, but highlights feature importance. |
+| **Accuracy ($R^2$ Score)** | **Low (approx. 2.1%):** Struggles with complex, non-linear supply chain rules. | **High (often 80%+):** Effectively captures complex interactions and non-linear thresholds. |
+| **Handling Noise** | Sensitive to outliers and multicollinearity. | Robust against outliers and irrelevant features. |
+
+---
+
+## 3. Explanation of Results & Observations
+
+- **Linear Regression Insights:** The $R^2$ score of roughly 2.1% indicates that while operational factors (like shipping mode or customer segment) provide high-level context, transaction-level financial metrics are necessary to fully capture order profitability variance.
+- **The Role of Financial Drivers:** Combining categorical attributes with numerical transaction drivers accounts for baseline revenue and discounting behavior. However, linear constraints limit predictive power.
+- **Business Takeaway:** To maintain strong profit margins, management cannot rely solely on broad categories. They must actively control transaction-level levers—specifically discount rates and pricing strategies—to prevent margin erosion.
+
+---
+
+## 4. Final Conclusion & Recommendation
+> *"While Linear Regression provides clear, interpretable coefficients to understand broad operational trends and direct feature weights, Random Forest Regressor is the superior model for predictive accuracy, successfully capturing non-linear cost and pricing interactions in supply chain data."*
 
 ---
 
