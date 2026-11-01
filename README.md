@@ -273,7 +273,7 @@ Target:
 Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volume** (65.752K), **Total Net Profit** ($3.97M), and **Profit Margin (%)** (10.78%).
 
 ### 2. Sum of Sales by Month (Area / Line Chart)
-* **January has the highest aggregated calendar-month sales.
+* January has the highest aggregated calendar-month sales.
 * **Mid-Year Performance:** Experience a mid-Q1 dip in February ($2.89M) before holding steady between $3.05M and $3.19M from March through October.
 * **Year-End Decline:** Sales decline toward the end of the year in November ($2.70M) and hit a low in December ($2.60M).
 
@@ -284,7 +284,7 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 ---
 
 ## 💡 Key Takeaway & Strategic Recommendations
-> "The dataset records a 10.78% profit margin and driven primarily by sports and outdoor categories—led overwhelmingly by **Fishing**. To maximize future growth, operations should focus on maintaining stock availability for top-performing outdoor and fitness lines while reviewing inventory allocation for lower-volume electronics and apparel categories."
+> "The dataset records a 10.78% profit margin. Sports and outdoor categories contribute strongly to sales, with Fishing leading category revenue. To maximize future growth, operations should focus on maintaining stock availability for top-performing outdoor and fitness lines while reviewing inventory allocation for lower-volume electronics and apparel categories."
 
 
 ## Dashboard 2: Shipping Performance
@@ -344,7 +344,7 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 ---
 
 ## 💡 Geography Key Takeaway
-> "The Consumer segment forms our core customer base across all global operations. Europe and LATAM drive the highest overall market sales and order volume, while key countries such as the United States (Estados Unidos), France (Francia), and Mexico (México) generate the largest net profits. Strategic expansion and marketing efforts should continue to prioritize high-margin country markets to maximize profitability."
+> "The Consumer segment forms our core customer base across all global operations. Europe and LATAM drive the highest overall market sales and order volume, while key countries such as the United States (Estados Unidos), France (Francia), and Mexico (México) generate the largest net profits. Strategic expansion and marketing efforts should continue to prioritize countries contributing the highest total profit to maximize profitability."
 
 ---
 
@@ -364,7 +364,7 @@ Recommendations will focus on:
 - Protect Standard Class capacity and monitor delivery reliability.
 - Review First Class and Second Class delivery commitments.
 - Test discount controls for low-margin products and transactions.
-- Collect actual fulfillment charges for future cost-efficiency analysis.s
+- Collect actual fulfillment charges for future cost-efficiency analysis.
 
 ---
 
@@ -375,7 +375,7 @@ Recommendations will focus on:
 - Profit calculations require careful aggregation.
 - Correlation does not imply causation.
 
-* ** Actual carrier, packing and handling charges are not separately available. This analysis compares recorded profitability and delivery performance and cannot directly establish the most cost-efficient shipping mode.
+*  Actual carrier, packing and handling charges are not separately available. This analysis compares recorded profitability and delivery performance and cannot directly establish the most cost-efficient shipping mode.
 
 ---
 
