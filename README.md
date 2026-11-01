@@ -402,5 +402,5 @@ Recommendations will focus on:
 
 # 13. Conclusion
 
-This project transforms multiple DataCo datasets into a comprehensive analysis of sales performance, shipping profitability,delivery performance, and customer behavior. The insights generated will support data-driven decisions that improve operational efficiency and profitability.
+This project transforms multiple DataCo datasets into a comprehensive analysis of sales performance, shipping profitability, delivery performance and customer behavior. The insights generated will support data-driven decisions that improve operational efficiency and profitability.
 
