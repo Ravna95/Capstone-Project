@@ -6,7 +6,7 @@ Prepared by Ravna
 
 
 # DataCo Supply Chain Performance Analysis
-### Optimizing Shipping Mode Profitability & Cost Efficiency Through Business Analytics
+### Analyzing Shipping Mode Profitability & Delivery Performance Through Business Analytics
 
 **Programme:** NTUC LearningHub SCTP Associate Data Analyst  
 **Project Type:** Business Analytics  
@@ -26,7 +26,7 @@ This capstone project analyzes DataCo supply chain operations using nine related
 
 - Sales performance
 - Shipping mode profitability
-- Cost efficiency
+- Delivery performance and fulfillment reliability.
 - Product and category profitability
 - Customer segment performance
 
@@ -47,7 +47,9 @@ While faster shipping methods improve customer satisfaction, higher shipping cos
 
 ### Research Question
 
-**How can DataCo analyze transaction revenues, discounts, and fulfillment costs across shipping modes to identify the most profitable logistics strategies and reduce low-margin shipments?**
+**DataCo uses Standard Class, Second Class, First Class and Same Day shipping. These modes differ in recorded profitability and delivery reliability. Discounts may also affect profit. DataCo needs to understand these differences to improve shipping decisions and identify low-margin transactions.
+
+How can DataCo analyze transaction revenues, discounts, recorded profitability and delivery performance across shipping modes to identify profitable logistics strategies and recommend actions to reduce low-margin shipments?**
 
 ---
 
@@ -72,10 +74,10 @@ While faster shipping methods improve customer satisfaction, higher shipping cos
 - Compare revenue and profit across departments.
 - Analyze discount impact on profitability.
 
-## Objective 4: Analyze Shipping Mode Profitability & Cost Efficiency
+## Analyze Shipping Mode Profitability & Delivery Performance
 
-- Compare revenue and profit margins across shipping modes.
-- Evaluate operational cost efficiency.
+- Compare revenue and recorded profit margins across shipping modes.
+- Evaluate recorded profitability alongside delivery performance.
 - Build a predictive model to classify profitable and unprofitable shipments.
 
 ## Objective 5: Analyze Customer Segment Performance & Purchasing Patterns
@@ -184,7 +186,6 @@ To analyze how operational factors and financial metrics influence profitability
 | Profit Margin (%) | Relative profitability |
 | Profitability by Shipping Mode | Shipping performance comparison |
 | Average Discount Rate (%) | Discount analysis |
-| Fulfillment Cost Efficiency Index | Cost efficiency evaluation |
 | Average Actual vs Scheduled Delivery Days | Delivery performance |
 | Model Accuracy (%) | Model performance |
 | Precision, Recall, F1-Score | Classification performance |
@@ -200,7 +201,7 @@ To analyze how operational factors and financial metrics influence profitability
 - Order volume trends
 - Top products and categories
 
-## 7.2 Shipping Mode Profitability & Cost Efficiency
+## 7.2 Shipping Mode Profitability & Delivery Performance
 
 Compare:
 
@@ -291,7 +292,7 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 ## Dashboard 2: Shipping Performance
 
 - Profit by Shipping Mode
-- Shipping Cost Efficiency
+- Delivery Performance
 - Discount Analysis
 - Delivery Performance
 
@@ -379,6 +380,8 @@ Recommendations will focus on:
 - Predictive models rely on historical patterns.
 - Profit calculations require careful aggregation.
 - Correlation does not imply causation.
+
+* ** Actual carrier, packing and handling charges are not separately available. This analysis compares recorded profitability and delivery performance and cannot directly establish the most cost-efficient shipping mode.
 
 ---
 
