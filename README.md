@@ -45,7 +45,7 @@ DataCo utilizes multiple shipping methods:
 
 ### Research Question
 
-**DataCo uses Standard Class, Second Class, First Class and Same Day shipping. These modes differ in recorded profitability and delivery reliability. Discounts may also affect profit. DataCo needs to understand these differences to improve shipping decisions and identify low-margin transactions.
+DataCo uses Standard Class, Second Class, First Class and Same Day shipping. These modes differ in recorded profitability and delivery reliability. Discounts may also affect profit. DataCo needs to understand these differences to improve shipping decisions and identify low-margin transactions.
 
 How can DataCo analyze transaction revenues, discounts, recorded profitability and delivery performance across shipping modes to identify profitable logistics strategies and recommend actions to reduce low-margin shipments?
 
@@ -284,7 +284,7 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 ---
 
 ## 💡 Key Takeaway & Strategic Recommendations
-> "Our business is highly profitable and driven primarily by sports and outdoor categories—led overwhelmingly by **Fishing**. To maximize future growth, operations should focus on maintaining stock availability for top-performing outdoor and fitness lines while reviewing inventory allocation for lower-volume electronics and apparel categories."
+> "The dataset records a 10.78% profit margin and driven primarily by sports and outdoor categories—led overwhelmingly by **Fishing**. To maximize future growth, operations should focus on maintaining stock availability for top-performing outdoor and fitness lines while reviewing inventory allocation for lower-volume electronics and apparel categories."
 
 
 ## Dashboard 2: Shipping Performance
@@ -292,7 +292,7 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 - Profit by Shipping Mode
 - Delivery Performance
 - Discount Analysis
-- Delivery Performance
+- Sales by Shipping Mode.
 
 <img width="1105" height="640" alt="image" src="https://github.com/user-attachments/assets/9a2448a3-0074-4241-9136-bfb2d6a67ea1" />
 
