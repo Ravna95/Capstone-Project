@@ -49,7 +49,7 @@ While faster shipping methods improve customer satisfaction, higher shipping cos
 
 **DataCo uses Standard Class, Second Class, First Class and Same Day shipping. These modes differ in recorded profitability and delivery reliability. Discounts may also affect profit. DataCo needs to understand these differences to improve shipping decisions and identify low-margin transactions.
 
-How can DataCo analyze transaction revenues, discounts, recorded profitability and delivery performance across shipping modes to identify profitable logistics strategies and recommend actions to reduce low-margin shipments?**
+How can DataCo analyze transaction revenues, discounts, recorded profitability and delivery performance across shipping modes to identify profitable logistics strategies and recommend actions to reduce low-margin shipments?
 
 ---
 
@@ -83,7 +83,7 @@ How can DataCo analyze transaction revenues, discounts, recorded profitability a
 ## Objective 5: Analyze Customer Segment Performance & Purchasing Patterns
 
 - Compare revenue and profit contributions across customer segments.
-- Evaluate order behaviors and shipping mode preferences by segment.
+- Evaluate order behaviors and shipping mode usage by segment.
 
 
 ---
@@ -135,7 +135,7 @@ The Data Dictionary provides field definitions and dataset relationships.
 - Study customer purchasing behavior.
 - Measure discount impact.
 
-# Objective 5: Predictive Analytics (Linear Regression & Random Forest)
+# Objective 5: Additional Predictive Analysis (Linear Regression & Random Forest)
 
 ## 1. Objective & Methodology
 To analyze how operational factors and financial metrics influence profitability, we implemented and compared two predictive modeling approaches:
@@ -208,7 +208,7 @@ Compare:
 - Revenue
 - Profit
 - Profit Margin
-- Cost-to-Profit Ratio
+- Actual versus scheduled shipping days and late-delivery risk rate.
 
 across:
 
@@ -296,7 +296,7 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 - Discount Analysis
 - Delivery Performance
 
-<img width="1154" height="684" alt="image" src="https://github.com/user-attachments/assets/06d43dd5-d79e-478b-9f30-7a7b67f53357" />
+<img width="1105" height="640" alt="image" src="https://github.com/user-attachments/assets/9a2448a3-0074-4241-9136-bfb2d6a67ea1" />
 
 
 # Dashboard 2: Shipping Performance
@@ -354,7 +354,7 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 
 # 9. Key Findings and Business Insights
 
-* **Supporting visualizations:** Dashboard 3 successfully outlines customer segments, market-level sales and orders, and top country profitability.
+* **Supporting visualizations:** Dashboard 3 successfully outlines customer segments, market-level sales and orders, shipping profitability, delivery reliability and discount findings and top country profitability.
 * **Calculations:** Total revenue contributions are distributed across three distinct customer segments and five international markets.
 * **Business interpretation:** Regional demand is heavily concentrated in Europe and LATAM, while profitability is anchored strongly by the US and key European/Latin American countries.
 * **Study limitations:** Analysis is constrained by regional aggregation levels and currency standardization across diverse global markets.
@@ -390,6 +390,7 @@ Recommendations will focus on:
 ## Shipping Optimization
 
 - Integrate real-time carrier pricing.
+- collecting actual carrier, packing and handling charges, while checking which costs recorded profit already includes.
 
 ## Predictive Analytics
 
@@ -407,5 +408,5 @@ Recommendations will focus on:
 
 # 13. Conclusion
 
-This project transforms multiple DataCo datasets into a comprehensive analysis of sales performance, shipping profitability, cost efficiency, and customer behavior. The insights generated will support data-driven decisions that improve operational efficiency and profitability.
+This project transforms multiple DataCo datasets into a comprehensive analysis of sales performance, shipping profitability,delivery performance, and customer behavior. The insights generated will support data-driven decisions that improve operational efficiency and profitability.
 
