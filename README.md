@@ -43,8 +43,6 @@ DataCo utilizes multiple shipping methods:
 - First Class
 - Same Day
 
-While faster shipping methods improve customer satisfaction, higher shipping costs and excessive discounts may reduce profitability.
-
 ### Research Question
 
 **DataCo uses Standard Class, Second Class, First Class and Same Day shipping. These modes differ in recorded profitability and delivery reliability. Discounts may also affect profit. DataCo needs to understand these differences to improve shipping decisions and identify low-margin transactions.
@@ -74,7 +72,7 @@ How can DataCo analyze transaction revenues, discounts, recorded profitability a
 - Compare revenue and profit across departments.
 - Analyze discount impact on profitability.
 
-## Analyze Shipping Mode Profitability & Delivery Performance
+## Objective 4: Analyze Shipping Mode Profitability & Delivery Performance.
 
 - Compare revenue and recorded profit margins across shipping modes.
 - Evaluate recorded profitability alongside delivery performance.
@@ -135,7 +133,7 @@ The Data Dictionary provides field definitions and dataset relationships.
 - Study customer purchasing behavior.
 - Measure discount impact.
 
-# Objective 5: Additional Predictive Analysis (Linear Regression & Random Forest)
+# Additional Predictive Analysis
 
 ## 1. Objective & Methodology
 To analyze how operational factors and financial metrics influence profitability, we implemented and compared two predictive modeling approaches:
@@ -264,8 +262,8 @@ Target:
 ## Executive Summary & Key Metrics
 * **Total Sales Revenue:** $36.78M (Gross revenue generated across the dataset)
 * **Total Order Volume:** 65.752K (Distinct customer orders processed)
-* **Total Net Profit:** $3.97M (Net benefit/profit after costs)
-* **Profit Margin (%):** 10.78% (Exact operational return rate)
+* **Total Net Profit:** $3.97M (Recorded profit)
+* **Profit Margin (%):** 10.78% (Recorded profit margin)
 
 ---
 
@@ -299,8 +297,6 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 <img width="1105" height="640" alt="image" src="https://github.com/user-attachments/assets/9a2448a3-0074-4241-9136-bfb2d6a67ea1" />
 
 
-# Dashboard 2: Shipping Performance
-
 ## 1. Profit & Sales by Shipping Method
 * **Standard Class Dominance:** Standard Class handles the vast majority of our total sales volume (~$7M+) and generates the highest net profit (~$0.8M).
 * **Express & Priority (Second Class, First Class, Same Day):** While smaller in overall volume, these premium options provide steady supplementary revenue and profit streams.
@@ -309,7 +305,7 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 * **Higher Discounts, Lower Returns:** Profit peaks when discount rates are low (0.0 to 0.05). As discount rates increase, overall profitability gradually fluctuates downward, indicating that steep discounts erode margins without proportional profit gains.
 
 ## 3. Delivery Performance Breakdown
-* **Fulfillment Status:** The donut chart (totaling 62.65K orders) shows that the majority of our orders are shipped on time, in advance, or via standard delivery, with specific tracking for late deliveries, advance shipping, shipping on time, and shipping canceled.
+* **Fulfillment Status:** 2015 is selected. The donut chart shows approximately 62.65K displayed status records. Late delivery accounts for 54.86%, advance shipping 23.30%, shipping on time 17.53%, and shipping canceled approximately 4.30%. Late delivery is the largest category.
 
 ---
 
@@ -343,7 +339,7 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 
 ### 4. Top Country Profitability (Bar Chart)
 * **Top Profit Drivers:** **Estados Unidos** generates the highest net profit by a significant margin (approx. $0.54M), followed by **Francia** ($0.33M) and **México** (approx. $0.3M).
-* **High-Margin Regions:** **Alemania** ($0.2M) and **Brasil** (approx. $0.19M) round out the top 5 most profitable country markets.
+* **Other Leading Countries by Total Profit:** **Alemania** ($0.2M) and **Brasil** (approx. $0.19M) round out the top 5 most profitable country markets.
 
 ---
 
@@ -365,18 +361,16 @@ Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volum
 
 Recommendations will focus on:
 
-- Shipping pricing strategies
-- Discount optimization
-- Product profitability improvement
-- Regional logistics optimization
-- Executive reporting enhancements
+- Protect Standard Class capacity and monitor delivery reliability.
+- Review First Class and Second Class delivery commitments.
+- Test discount controls for low-margin products and transactions.
+- Collect actual fulfillment charges for future cost-efficiency analysis.s
 
 ---
 
 # 11. Project Limitations
 
 - Historical data may not reflect current business conditions.
-- Shipping costs may not represent actual carrier costs.
 - Predictive models rely on historical patterns.
 - Profit calculations require careful aggregation.
 - Correlation does not imply causation.
@@ -390,7 +384,7 @@ Recommendations will focus on:
 ## Shipping Optimization
 
 - Integrate real-time carrier pricing.
-- collecting actual carrier, packing and handling charges, while checking which costs recorded profit already includes.
+- collect actual carrier, packing and handling charges, while checking which costs recorded profit already includes.
 
 ## Predictive Analytics
 
