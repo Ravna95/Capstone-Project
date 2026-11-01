@@ -273,7 +273,7 @@ Target:
 Four KPI cards displaying **Total Sales Revenue** ($36.78M), **Total Order Volume** (65.752K), **Total Net Profit** ($3.97M), and **Profit Margin (%)** (10.78%).
 
 ### 2. Sum of Sales by Month (Area / Line Chart)
-* **Seasonal Peak:** Sales peak in January at $3.46M.
+* **January has the highest aggregated calendar-month sales.
 * **Mid-Year Performance:** Experience a mid-Q1 dip in February ($2.89M) before holding steady between $3.05M and $3.19M from March through October.
 * **Year-End Decline:** Sales decline toward the end of the year in November ($2.70M) and hit a low in December ($2.60M).
 
